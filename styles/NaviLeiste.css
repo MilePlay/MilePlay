@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body.preload{
+    transition: 0s;
+}
+
+.naviLeiste{
+    background:#020943;
+    width: 100%;
+    height: 7em;
+    box-shadow: 10px 0 50px black inset;
+    position: fixed;
+    margin: 0;
+}
+#footer{
+    background: #020943;
+    width: 100%;
+    height: 7em;
+    box-shadow: 10px 0 50px black inset;
+}
+
+.placeholder{
+    padding-top: 7em;
+}
+
+
+
+img.logo{
+    height: 6em;
+    margin: 5px;
+    transition: 0.5s;
+    
+    float: left;
+}
+img.logo:hover{
+    height: 6.5em;
+}
+img.logo:active{
+    height: 6em;
+    transition: 0.25s;
+}
+
+
+
+.naviText{
+    margin: 5px;
+    float: left;
+    text-align:center;
+    font-size: 450%;
+    padding-top: 18px;
+    color: #0f21ea;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.naviText:hover{
+    font-size: 475%;
+    color: #7e86df;
+}
+.naviText:active{
+    font-size: 450%;
+    transition: 0.25s;
+}
+.trennstrich{
+    font-size: 6.5em;
+    color:  #0f21ea
+}
